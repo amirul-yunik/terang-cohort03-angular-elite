@@ -4,16 +4,18 @@ import {Observable} from 'rxjs';
 import {Subject} from '../app/tuition/subject.model';
 
 @Injectable()
-export class AcademyService {
+export class TuitionService {
 
   constructor(private http: HttpClient) {
   }
 
   findSubjects(): Observable<Subject[]> {
-    return this.http.get<Subject[]>('data/subjects');
+    console.log('This is inside findSubjects');
+    return this.http.get<Subject[]>('data/subjects.json');
   }
 
-  findSubject(): Observable<Subject> {
+  findSubject(id: number): Observable<Subject> {
+    console.log('This is inside findSubject');
     return this.http.get<Subject>('data/subject.json');
   }
 

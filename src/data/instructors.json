@@ -1,38 +1,37 @@
 [
   {
-  "name": "Salmah bt. Awi",
-  "NRIC": "662615-05-5144",
-  "gender": "FEMALE",
-  "IdNumber": "gl253464",
-  "email": "s.awi@elite.com"
-
+    "name": "Salmah bt. Awi",
+    "NRIC": "662615-05-5144",
+    "gender": "FEMALE",
+    "IdNumber": "gl253464",
+    "email": "s.awi@elite.com"
   },
   {
-  "name": "Selvi Salome",
-  "NRIC": "772625-03-5454",
-  "gender": "FEMALE",
-  "IdNumber": "gl659834",
-  "email": "s.selvi@elite.com"
+    "name": "Selvi Salome",
+    "NRIC": "772625-03-5454",
+    "gender": "FEMALE",
+    "IdNumber": "gl659834",
+    "email": "s.selvi@elite.com"
   },
   {
-  "name": "Susan Tan",
-  "NRIC": "692605-03-5022",
-  "gender": "FEMALE",
-  "IdNumber": "gl741544",
-  "email": "s.Tan@elite.com"
+    "name": "Susan Tan",
+    "NRIC": "692605-03-5022",
+    "gender": "FEMALE",
+    "IdNumber": "gl741544",
+    "email": "s.Tan@elite.com"
   },
-     {
-     "name": "Salim Bin Mamat",
-     "NRIC": "592625-02-5033",
-     "gender": "MALE",
-     "IdNumber": "gh25852",
-     "email": "s.Samat@elite.com"
-     },
-        {
-        "name": "Ali Bin Aman",
-        "NRIC": "592225-09-5155",
-        "gender": "MALE",
-        "IdNumber": "gh2545454",
-        "email": "s.Ali@elite.com"
-        }
+  {
+    "name": "Salim Bin Mamat",
+    "NRIC": "592625-02-5033",
+    "gender": "MALE",
+    "IdNumber": "gh25852",
+    "email": "s.Samat@elite.com"
+  },
+  {
+    "name": "Ali Bin Aman",
+    "NRIC": "592225-09-5155",
+    "gender": "MALE",
+    "IdNumber": "gh2545454",
+    "email": "s.Ali@elite.com"
+  }
 ]
