@@ -42,6 +42,13 @@ export const menus = [
         'link': '/tuition/subjects',
         'chip': {'value': 2, 'color': 'accent'},
         'open': false,
+      },
+      {
+        'name': 'All Instructors',
+        'icon': 'filter_list',
+        'link': '/tuition/instructors',
+        'chip': {'value': 2, 'color': 'accent'},
+        'open': false,
       }
     ]
   },

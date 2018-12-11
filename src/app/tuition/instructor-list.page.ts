@@ -4,6 +4,7 @@ import {Router} from '@angular/router';
 import {TuitionService} from '../../services/tuition.service';
 
 @Component({
+  selector: 'trg-instructor-list',
   templateUrl: './instructor-list.page.html',
 })
 export class InstructorListPage implements OnInit {
