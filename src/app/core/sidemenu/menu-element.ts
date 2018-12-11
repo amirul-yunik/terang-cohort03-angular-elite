@@ -42,7 +42,7 @@ export const menus = [
         'icon': 'filter_list',
         'link': '/tuition/staffs/list',
         'chip': {'value': 2, 'color': 'accent'},
-        'open': false,
+        'open': true,
       }
 
     ]

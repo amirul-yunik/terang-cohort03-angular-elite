@@ -24,6 +24,6 @@ export class StaffListPage implements OnInit {
 
   view(staff: Staff): void {
     console.log(JSON.stringify(staff));
-    this.router.navigate(['/tuition/staff/', staff.id]);
+    this.router.navigate(['/tuition/staff/', staff.nric]);
   }
 }
