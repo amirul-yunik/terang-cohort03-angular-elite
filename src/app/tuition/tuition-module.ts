@@ -28,7 +28,6 @@ import {SubjectDetailPage} from './subject-detail.page';
 import {StudentListPage} from './student-list.page';
 import {InstructorListPage} from './instructor-list.page';
 
-
 @NgModule({
   imports: [
     CommonModule,

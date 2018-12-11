@@ -29,4 +29,20 @@ export const menus = [
       },
     ]
   },
+  {
+    'name': 'Tuition',
+    'icon': 'dashboard',
+    'link': false,
+    'open': false,
+    'chip': false,
+    'sub': [
+      {
+        'name': 'All Apprentices',
+        'icon': 'filter_list',
+        'link': '/tuition/subjects',
+        'chip': {'value': 2, 'color': 'accent'},
+        'open': false,
+      }
+    ]
+  },
 ];
