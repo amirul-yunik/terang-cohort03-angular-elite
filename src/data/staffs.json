@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ARTZ-001",
+    "name": "Micheal Mikail",
+    "nric": "123456-23-7777",
+    "role": "Accountant",
+    "phone": "+60123456789",
+    "email": "mic.mikail@tuition.power"
+
+  },
+
+  {
+    "id": "ARTZ-002",
+    "name": "Bae Suzy",
+    "nric": "123456-22-5888",
+    "role": "Manager",
+    "phone": "+60123456987",
+    "email": "bae.suzy@tuition.power"
+
+  },
+
+  {
+    "id": "ARTZ-001",
+    "name": "Json Thecode",
+    "nric": "123456-12-3452",
+    "role": "Technical Manager",
+    "phone": "+60123444549",
+    "email": "json.thecode@tuition.power"
+
+  },
+
+  {
+    "id": "ARTZ-001",
+    "name": "Mikail Micheal ",
+    "nric": "123456-34-0987",
+    "role": "General Worker",
+    "phone": "+60123545589",
+    "email": "mikail.mic@tuition.power"
+
+  },
+
+  {
+    "id": "ARTZ-001",
+    "name": "Alisha Adnan",
+    "nric": "123679-99-6666",
+    "role": "General Worker",
+    "phone": "+60123456789",
+    "email": "alisha.adnan@tuition.power"
+
+  }
+
+]
