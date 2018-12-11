@@ -23,6 +23,7 @@ import {
 } from '@angular/material';
 
 import {MatTableModule} from '@angular/material/table';
+import {StaffListPage} from './staff-list.page';
 
 @NgModule({
   imports: [
@@ -50,6 +51,7 @@ import {MatTableModule} from '@angular/material/table';
     MatButtonToggleModule,
   ],
   declarations: [
+    StaffListPage,
 
   ],
   exports: []

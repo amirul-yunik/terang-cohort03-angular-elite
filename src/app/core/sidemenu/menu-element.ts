@@ -6,7 +6,7 @@ export const menus = [
     'open': false,
     'chip': {'value': 1, 'color': 'accent'},
   },
-  {
+  /*{
     'name': 'Academy',
     'icon': 'list',
     'link': false,
@@ -27,6 +27,24 @@ export const menus = [
         'chip': {'value': 2, 'color': 'accent'},
         'open': false,
       },
+    ]
+  },
+*/
+  {
+    'name': 'Tuition',
+    'icon': 'list',
+    'link': false,
+    'open': false,
+    'chip': false,
+    'sub': [
+      {
+        'name': 'All Staff',
+        'icon': 'filter_list',
+        'link': '/tuition/staffs/list',
+        'chip': {'value': 2, 'color': 'accent'},
+        'open': false,
+      }
+
     ]
   },
 ];
