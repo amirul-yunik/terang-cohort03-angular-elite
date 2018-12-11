@@ -11,7 +11,6 @@ export class SubjectListPage implements OnInit {
   constructor(private router: Router) {
     console.log('Inside subject List');
     console.log('//console.log(JSON.stringify(apprentice));');
-
   }
 
   ngOnInit(): void {
