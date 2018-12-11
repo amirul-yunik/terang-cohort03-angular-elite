@@ -7,29 +7,6 @@ export const menus = [
     'chip': {'value': 1, 'color': 'accent'},
   },
   {
-    'name': 'Academy',
-    'icon': 'list',
-    'link': false,
-    'open': false,
-    'chip': false,
-    'sub': [
-      {
-        'name': 'All Cohorts',
-        'icon': 'filter_list',
-        'link': '/academy/cohorts/list',
-        'chip': {'value': 2, 'color': 'accent'},
-        'open': false,
-      },
-      {
-        'name': 'All Apprentices',
-        'icon': 'filter_list',
-        'link': '/academy/apprentices/list',
-        'chip': {'value': 2, 'color': 'accent'},
-        'open': false,
-      },
-    ]
-  },
-  {
     'name': 'Tuition',
     'icon': 'dashboard',
     'link': false,
@@ -37,16 +14,16 @@ export const menus = [
     'chip': false,
     'sub': [
       {
-        'name': 'All Apprentices',
+        'name': 'All Subjects',
         'icon': 'filter_list',
-        'link': '/tuition/subjects',
+        'link': '/tuition/subjects/list',
         'chip': {'value': 2, 'color': 'accent'},
         'open': false,
       },
       {
         'name': 'All Instructors',
         'icon': 'filter_list',
-        'link': '/tuition/instructors',
+        'link': '/tuition/instructors/list',
         'chip': {'value': 2, 'color': 'accent'},
         'open': false,
       }
