@@ -8,6 +8,8 @@ import {CohortDetailPage} from './academy/cohort-detail.page';
 import {SubjectListPage} from './tuition/subject-list.page';
 import {InstructorListPage} from './tuition/instructor-list.page';
 import {StudentListPage} from './tuition/student-list.page';
+import {StaffListPage} from './tuition/staff-list.page';
+import {StaffDetailPage} from './tuition/staff-detail.page';
 
 export const appRoutes: Routes = [{
   path: '', component: MainComponent, children: [
@@ -23,5 +25,7 @@ export const appRoutes: Routes = [{
     {path: 'tuition/subjects/list', component: SubjectListPage},
     {path: 'tuition/instructors/list', component: InstructorListPage},
     {path: 'tuition/students/list', component: StudentListPage},
+    {path: 'tuition/staff/:id', component: StaffDetailPage},
+    {path: 'tuition/staffs/list', component: StaffListPage},
   ]
 }];

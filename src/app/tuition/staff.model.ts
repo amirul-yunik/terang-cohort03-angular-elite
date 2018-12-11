@@ -1,7 +1,7 @@
 export interface  Staff {
-  id: string;
+  id: number;
   name: string;
-  nric: string;
+  nric: number;
   role: string;
   phone: string;
   email: string;

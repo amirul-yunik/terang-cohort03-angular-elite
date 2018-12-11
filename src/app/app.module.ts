@@ -28,7 +28,7 @@ import {TuitionService} from '../services/tuition.service';
     MainModule,
     DashboardModule,
     AcademyModule,
-    TuitionModule
+    TuitionModule,
   ],
   providers: [AcademyService, TuitionService],
   bootstrap: [AppComponent]
