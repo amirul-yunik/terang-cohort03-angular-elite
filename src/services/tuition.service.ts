@@ -16,4 +16,6 @@ export class AcademyService {
   findSubject(): Observable<Subject> {
     return this.http.get<Subject>('data/subject.json');
   }
+
+
 }
