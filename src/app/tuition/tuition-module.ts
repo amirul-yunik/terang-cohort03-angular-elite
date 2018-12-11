@@ -59,7 +59,7 @@ import {StaffDetailPage} from './staff-detail.page';
     SubjectListPage,
     SubjectDetailPage,
     StudentListPage,
-    InstructorListPage
+    InstructorListPage,
     StaffListPage,
     StaffDetailPage,
 
