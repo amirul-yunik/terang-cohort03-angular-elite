@@ -11,6 +11,8 @@ import {AcademyModule} from './academy/academy.module';
 import {AcademyService} from '../services/academy.service';
 import {DashboardModule} from './dashboard/dashboard.module';
 import {CohortStatusPipe} from './academy/cohort-status.pipe';
+import {TuitionModule} from './tuition/tuition-module';
+import {TuitionService} from '../services/tuition.service';
 
 
 @NgModule({
@@ -27,7 +29,7 @@ import {CohortStatusPipe} from './academy/cohort-status.pipe';
     DashboardModule,
     AcademyModule,
   ],
-  providers: [AcademyService],
+  providers: [AcademyService, TuitionService],
   bootstrap: [AppComponent]
 })
 export class AppModule {
