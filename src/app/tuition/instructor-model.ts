@@ -1,7 +1,7 @@
 export interface Instructor {
   name: string;
-  NRIC: string;
+  nric: string;
   gender: string;
-  idnumber: string;
+  id: string;
   email: string;
 }

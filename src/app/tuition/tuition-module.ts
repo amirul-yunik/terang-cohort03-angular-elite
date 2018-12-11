@@ -23,6 +23,10 @@ import {
 } from '@angular/material';
 
 import {MatTableModule} from '@angular/material/table';
+import {SubjectListPage} from './subject-list.page';
+import {SubjectDetailPage} from './subject-detail.page';
+import {StudentListPage} from './student-list.page';
+import {InstructorListPage} from './instructor-list.page';
 import {StaffListPage} from './staff-list.page';
 import {StaffDetailPage} from './staff-detail.page';
 
@@ -52,6 +56,10 @@ import {StaffDetailPage} from './staff-detail.page';
     MatButtonToggleModule,
   ],
   declarations: [
+    SubjectListPage,
+    SubjectDetailPage,
+    StudentListPage,
+    InstructorListPage
     StaffListPage,
     StaffDetailPage,
 

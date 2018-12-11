@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>This is Instructor Page</title>
+</head>
+<body>
+This is Instructor Page
+
+<mat-table #table [dataSource]="datasource">
+
+  <!-- id column -->
+  <ng-container matColumnDef="id">
+    <mat-header-cell *matHeaderCellDef> ID</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.id}}</mat-cell>
+  </ng-container>
+
+  <!-- name column -->
+  <ng-container matColumnDef="name">
+    <mat-header-cell *matHeaderCellDef> name</mat-header-cell>
+    <mat-cell *matCellDef="let row"> {{row.name}}</mat-cell>
+  </ng-container>
+
+  <mat-header-row *matHeaderRowDef="columns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: columns;"></mat-row>
+
+</mat-table>
+
+<mat-list role="list">
+  <mat-list-item role="listitem">Item 1</mat-list-item>
+  <mat-list-item role="listitem">Item 2</mat-list-item>
+  <mat-list-item role="listitem">Item 3</mat-list-item>
+</mat-list>
+
+
+
+
+</body>
+</html>

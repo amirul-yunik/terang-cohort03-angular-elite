@@ -6,37 +6,27 @@ export const menus = [
     'open': false,
     'chip': {'value': 1, 'color': 'accent'},
   },
-  /*{
-    'name': 'Academy',
-    'icon': 'list',
+  {
+    'name': 'Tuition',
+    'icon': 'dashboard',
     'link': false,
     'open': false,
     'chip': false,
     'sub': [
       {
-        'name': 'All Cohorts',
+        'name': 'All Subjects',
         'icon': 'filter_list',
-        'link': '/academy/cohorts/list',
+        'link': '/tuition/subjects/list',
         'chip': {'value': 2, 'color': 'accent'},
         'open': false,
       },
       {
-        'name': 'All Apprentices',
+        'name': 'All Instructors',
         'icon': 'filter_list',
         'link': '/academy/apprentices/list',
         'chip': {'value': 2, 'color': 'accent'},
         'open': false,
       },
-    ]
-  },
-*/
-  {
-    'name': 'Tuition',
-    'icon': 'list',
-    'link': false,
-    'open': false,
-    'chip': false,
-    'sub': [
       {
         'name': 'All Staff',
         'icon': 'filter_list',
@@ -44,7 +34,6 @@ export const menus = [
         'chip': {'value': 2, 'color': 'accent'},
         'open': true,
       }
-
     ]
   },
 ];
