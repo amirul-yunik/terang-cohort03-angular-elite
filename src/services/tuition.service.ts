@@ -5,6 +5,7 @@ import {Subject} from '../app/tuition/subject.model';
 import {Staff} from '../app/tuition/staff.model';
 import {Instructor} from '../app/tuition/instructor-model';
 import {Student} from '../app/tuition/student.model';
+import {StudentSession} from '../app/tuition/studentSession.model';
 
 @Injectable()
 export class TuitionService {
@@ -55,6 +56,16 @@ export class TuitionService {
   findStudent(): Observable<Student> {
     console.log('This is inside findStudent');
     return this.http.get<Student>('data/student.json');
+  }
+
+  findStudentSession(): Observable<StudentSession> {
+    console.log('This is inside findStudentSession');
+    return this.http.get<StudentSession>('data/studentSession.json');
+  }
+
+  findStudentSessions(): Observable<StudentSession[]> {
+    console.log('This is inside findStudentSession');
+    return this.http.get<StudentSession[]>('data/studentSessions.json');
   }
 
 }

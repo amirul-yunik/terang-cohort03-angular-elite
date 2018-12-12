@@ -16,6 +16,7 @@ export class InstructorListPage implements OnInit {
 
   constructor(private router: Router, private tuitionService: TuitionService) {
     console.log('Inside instructor List');
+    //console.log(JSON.stringify(this.));
     console.log('//console.log(JSON.stringify(instructor));');
   }
 
