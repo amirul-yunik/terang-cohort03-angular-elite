@@ -6,6 +6,7 @@ import {Staff} from '../app/tuition/staff.model';
 import {Instructor} from '../app/tuition/instructor-model';
 import {Student} from '../app/tuition/student.model';
 import {StudentSession} from '../app/tuition/studentSession.model';
+import {Todos} from '../app/tuition/todos/todos.model';
 
 @Injectable()
 export class TuitionService {
@@ -66,6 +67,14 @@ export class TuitionService {
   findStudentSessions(): Observable<StudentSession[]> {
     console.log('This is inside findStudentSession');
     return this.http.get<StudentSession[]>('data/studentSessions.json');
+  }
+
+  findTodos():Observable<Todos[]>{
+    return this.http.get<Todos[]>('https://jsonplaceholder.typicode.com/todos');
+  }
+
+  findTodosById(id:number):Observable<Todos>{
+    return this.http.get<Todos>('https://jsonplaceholder.typicode.com/todos/' + id);
   }
 
 }
