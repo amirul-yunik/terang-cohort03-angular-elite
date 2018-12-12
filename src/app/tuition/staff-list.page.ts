@@ -14,6 +14,7 @@ export class StaffListPage implements OnInit {
   public columns = ['id', 'name', 'nric'];
   public dataSource: StaffDataSource;
 
+
   constructor(private staffService: TuitionService,
               private router: Router) {
   }
@@ -23,7 +24,9 @@ export class StaffListPage implements OnInit {
   }
 
   view(staff: Staff): void {
+    console.log("Data achieve");
     console.log(JSON.stringify(staff));
     this.router.navigate(['/tuition/staff/', staff.nric]);
   }
+
 }
