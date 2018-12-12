@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {Subject} from './subject.model';
 import {Router} from '@angular/router';
 import {TuitionService} from '../../services/tuition.service';
+import {Observable} from 'rxjs';
 
 @Component({
   selector: 'trg-subject-list',
@@ -9,11 +10,15 @@ import {TuitionService} from '../../services/tuition.service';
 })
 export class SubjectListPage implements OnInit {
 
-  constructor(private router: Router) {
-    console.log('Inside subject List');
-    console.log('//console.log(JSON.stringify(apprentice));');
-  }
+  datasource: Observable<Subject[]>;
+  public columns = ['name', 'code', 'rate', 'hours','type','level'];
 
+  constructor(private router: Router, private tuitionService: TuitionService) {
+    console.log('Inside instructor List');
+   // console.log(JSON.stringify(Subject));
+
+  }
   ngOnInit(): void {
+    this.datasource = this.tuitionService.findSubjects();
   }
 }
