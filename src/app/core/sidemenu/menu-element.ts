@@ -24,7 +24,7 @@ export const menus = [
   {
     'name': 'All Instructors',
     'icon': 'perm_identity',
-    'link': '/academy/apprentices/list',
+    'link': '/tuition/instructors',
     'chip': {'value': 2, 'color': 'accent'},
     'open': false,
   },
