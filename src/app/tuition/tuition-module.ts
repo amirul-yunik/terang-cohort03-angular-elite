@@ -74,7 +74,9 @@ import {PostDetailPage} from './jason-backend-detail.page';
     StudentSessionListPage,
     StudentSessionDetailPage,
     TodosListPage,
-    TodosDetailPage
+    TodosDetailPage,
+    PostDetailPage,
+    JsonBackendListPage
 
 
   ],
