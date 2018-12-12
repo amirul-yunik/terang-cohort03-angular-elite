@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {Observable} from 'rxjs';
 import {ActivatedRoute} from '@angular/router';
-import {Post} from './post.model';
+import {Posts} from './post.model';
 import {TuitionService} from '../../services/tuition.service';
 import {PostDataSource} from './post.data-source';
 import {Staff} from './staff.model';
@@ -12,10 +12,10 @@ import {Staff} from './staff.model';
   selector: 'trg-post-detail',
   templateUrl: './post-detail.page.html',
 })
-export class PostDetailPage implements OnInit {
+export class PostDetailsPage implements OnInit {
 
   public columns = ['userId', 'id', 'title','body'];
-  post$: Observable<Post>;
+  posts$: Observable<Posts>;
   constructor(private tuitionService: TuitionService,
               private route: ActivatedRoute) {
   }
@@ -23,7 +23,7 @@ export class PostDetailPage implements OnInit {
   ngOnInit(): void {
     // extracting param from url
     this.route.params.subscribe((params: { id: number }) => {
-      this.post$ = this.tuitionService.findPost(params.id)
+      this.posts$ = this.tuitionService.findPost(params.id)
     });
   }
 

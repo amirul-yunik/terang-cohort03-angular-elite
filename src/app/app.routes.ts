@@ -13,7 +13,7 @@ import {StaffDetailPage} from './tuition/staff-detail.page';
 import {AttendanceListPage} from './tuition/attendance-list.page';
 import {StudentSessionListPage} from './tuition/studentSession-list.page';
 import {PostListPage} from './tuition/post-list.page';
-import {PostDetailPage} from './tuition/post-detail.page';
+import {PostDetailsPage} from './tuition/post-detail.page';
 import {TodosListPage} from './tuition/todos/todos-list.page';
 import {TodosDetailPage} from './tuition/todos/todos-detail.page';
 import {JsonBackendListPage} from './tuition/jason-backend-list.page';
@@ -39,7 +39,7 @@ export const appRoutes: Routes = [{
     {path: 'tuition/attendance/list', component: AttendanceListPage},
     {path: 'tuition/studentSession/list', component: StudentSessionListPage},
     {path: 'tuition/post/list', component: PostListPage},
-    {path: 'tuition/post/:id', component: PostDetailPage},
+    {path: 'tuition/post/:id', component: PostDetailsPage},
     {path: 'tuition/todos/list', component: TodosListPage},
     {path: 'tuition/todos/list/:id', component: TodosDetailPage},
     {path: 'tuition/jsonbackend/list', component: JsonBackendListPage},

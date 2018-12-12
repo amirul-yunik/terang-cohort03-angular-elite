@@ -8,24 +8,24 @@
       <mat-list-item>
         <mat-icon mat-list-icon>folder</mat-icon>
         <h1 mat-line>User ID :</h1>
-        <p mat-line> {{(post$ | async).userId}} </p>
+        <p mat-line> {{(posts$ | async).userId}} </p>
 
 
       </mat-list-item>
       <mat-list-item>
         <mat-icon mat-list-icon>folder</mat-icon>
         <h1 mat-line>ID :</h1>
-        <p mat-line> {{(post$ | async).id}} </p>
+        <p mat-line> {{(posts$ | async).id}} </p>
       </mat-list-item>
       <mat-list-item>
         <mat-icon mat-list-icon>folder</mat-icon>
         <h1 mat-line>Title :</h1>
-        <p mat-line> {{(post$ | async).title}} </p>
+        <p mat-line> {{(posts$ | async).title}} </p>
       </mat-list-item>
       <mat-list-item>
         <mat-icon mat-list-icon>folder</mat-icon>
         <h1 mat-line>Post :</h1>
-        <p mat-line> {{(post$ | async).body}} </p>
+        <p mat-line> {{(posts$ | async).body}} </p>
       </mat-list-item>
     </mat-list>
   </div>
