@@ -30,7 +30,7 @@ export const menus = [
   },
   {
     'name': 'All Students',
-    'icon': 'filter_list',
+    'icon': 'perm_identity',
     'link': '/tuition/students',
     'chip': {'value': 2, 'color': 'accent'},
     'open': false,
@@ -39,6 +39,14 @@ export const menus = [
     'name': 'All Staffs',
     'icon': 'perm_identity',
     'link': '/tuition/staffs/list',
+    'chip': {'value': 2, 'color': 'accent'},
+    'open': true,
+  },
+
+  {
+    'name': 'Posts',
+    'icon': 'feedback',
+    'link': '/tuition/post/list',
     'chip': {'value': 2, 'color': 'accent'},
     'open': true,
   },

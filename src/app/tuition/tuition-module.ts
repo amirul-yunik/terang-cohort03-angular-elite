@@ -13,7 +13,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {
-  MatButtonToggleModule,
+  MatButtonToggleModule, MatCardModule,
   MatCheckboxModule,
   MatChipsModule,
   MatNativeDateModule,
@@ -32,6 +32,8 @@ import {StaffDetailPage} from './staff-detail.page';
 import {AttendanceListPage} from './attendance-list.page';
 import {StudentSessionListPage} from './studentSession-list.page';
 import {StudentSessionDetailPage} from './studentSession-detail.page';
+import {PostListPage} from './post-list.page';
+import {PostDetailPage} from './post-detail.page';
 
 @NgModule({
   imports: [
@@ -39,6 +41,7 @@ import {StudentSessionDetailPage} from './studentSession-detail.page';
     FlexLayoutModule,
     ReactiveFormsModule,
     FormsModule,
+    MatCardModule,
     MatButtonModule,
     MatIconModule,
     MatTabsModule,
@@ -68,7 +71,9 @@ import {StudentSessionDetailPage} from './studentSession-detail.page';
     StaffDetailPage,
     AttendanceListPage,
     StudentSessionListPage,
-    StudentSessionDetailPage
+    StudentSessionDetailPage,
+    PostListPage,
+    PostDetailPage
 
   ],
   exports: []
