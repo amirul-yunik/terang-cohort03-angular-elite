@@ -45,10 +45,8 @@ export class TuitionService {
   findInstructorsbyId(id: number): Observable<Instructor> {
     console.log('This is inside findInstructor');
     return this.http.get<Instructor>('data/instructor.json');
+
   }
-
-
-
 
   findStudents(): Observable<Student[]> {
     console.log('This is inside findStudents');
@@ -68,6 +66,14 @@ export class TuitionService {
   findStudentSessions(): Observable<StudentSession[]> {
     console.log('This is inside findStudentSession');
     return this.http.get<StudentSession[]>('data/studentSessions.json');
+  }
+
+  findTodos():Observable<Todos[]>{
+    return this.http.get<Todos[]>('https://jsonplaceholder.typicode.com/todos');
+  }
+
+  findTodosById(id:number):Observable<Todos>{
+    return this.http.get<Todos>('https://jsonplaceholder.typicode.com/todos/' + id);
   }
 
 }

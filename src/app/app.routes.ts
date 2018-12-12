@@ -37,7 +37,7 @@ export const appRoutes: Routes = [{
     {path: 'tuition/attendance/list', component: AttendanceListPage},
     {path: 'tuition/studentSession/list', component: StudentSessionListPage},
     {path: 'tuition/todos/list', component: TodosListPage},
-    {path: 'tuition/todos/list/:id', component: TodosDetailPage}
+    {path: 'tuition/todos/list/:id', component: TodosDetailPage},
     {path: 'tuition/jsonbackend/list', component: JsonBackendListPage},
     {path: 'tuition/jsonbackend/:id', component: PostDetailPage},
 

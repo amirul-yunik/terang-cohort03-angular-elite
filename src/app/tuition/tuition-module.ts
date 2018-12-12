@@ -72,7 +72,10 @@ import {PostDetailPage} from './jason-backend-detail.page';
     StaffDetailPage,
     AttendanceListPage,
     StudentSessionListPage,
-    StudentSessionDetailPage
+    StudentSessionDetailPage,
+    TodosListPage,
+    TodosDetailPage
+
 
   ],
   exports: []
