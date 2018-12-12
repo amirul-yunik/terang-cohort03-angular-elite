@@ -1,6 +1,7 @@
-export interface  Staff {
+import {Person} from './person.model';
+
+export interface  Staff extends Person {
   id: number;
-  name: string;
   nric: number;
   role: string;
   phone: string;
