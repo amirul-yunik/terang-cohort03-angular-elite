@@ -31,6 +31,7 @@ import {StaffListPage} from './staff-list.page';
 import {StaffDetailPage} from './staff-detail.page';
 import {AttendanceListPage} from './attendance-list.page';
 import {StudentSessionListPage} from './studentSession-list.page';
+import {StudentSessionDetailPage} from './studentSession-detail.page';
 
 @NgModule({
   imports: [
@@ -66,7 +67,8 @@ import {StudentSessionListPage} from './studentSession-list.page';
     StaffListPage,
     StaffDetailPage,
     AttendanceListPage,
-    StudentSessionListPage
+    StudentSessionListPage,
+    StudentSessionDetailPage
 
   ],
   exports: []
