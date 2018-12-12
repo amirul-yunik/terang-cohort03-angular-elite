@@ -12,11 +12,11 @@ import {Observable} from 'rxjs';
 export class InstructorListPage implements OnInit {
 
   datasource: Observable<Instructor[]>;
-  public columns = ['id', 'name'];
+  public columns = ['id', 'name', 'gender', 'nric', 'email'];
 
   constructor(private router: Router, private tuitionService: TuitionService) {
     console.log('Inside instructor List');
-    console.log('//console.log(JSON.stringify(apprentice));');
+    console.log('//console.log(JSON.stringify(instructor));');
   }
 
   ngOnInit(): void {
