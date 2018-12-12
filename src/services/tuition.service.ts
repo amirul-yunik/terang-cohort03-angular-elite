@@ -24,7 +24,9 @@ export class TuitionService {
 
   findStaffs(): Observable<Staff[]> {
     console.log('This is inside findStaffs');
+    console.log('Get data from JSON file');
     return this.http.get<Staff[]>('data/staffs.json');
+
   }
 
   findStaff(id:number): Observable<Staff> {
