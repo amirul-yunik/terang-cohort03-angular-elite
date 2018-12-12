@@ -1,4 +1,6 @@
 export enum Loan {
-  YES,
+  FULL,
+  TERMINATED,
+  HALF,
   NO,
 }

@@ -10,6 +10,8 @@ import {InstructorListPage} from './tuition/instructor-list.page';
 import {StudentListPage} from './tuition/student-list.page';
 import {StaffListPage} from './tuition/staff-list.page';
 import {StaffDetailPage} from './tuition/staff-detail.page';
+import {AttendanceListPage} from './tuition/attendance-list.page';
+
 
 export const appRoutes: Routes = [{
   path: '', component: MainComponent, children: [
@@ -27,5 +29,6 @@ export const appRoutes: Routes = [{
     {path: 'tuition/students/list', component: StudentListPage},
     {path: 'tuition/staff/:id', component: StaffDetailPage},
     {path: 'tuition/staffs/list', component: StaffListPage},
+    {path: 'tuition/attendance/list', component: AttendanceListPage},
   ]
 }];

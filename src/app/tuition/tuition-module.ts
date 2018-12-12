@@ -29,6 +29,7 @@ import {StudentListPage} from './student-list.page';
 import {InstructorListPage} from './instructor-list.page';
 import {StaffListPage} from './staff-list.page';
 import {StaffDetailPage} from './staff-detail.page';
+import {AttendanceListPage} from './attendance-list.page';
 
 @NgModule({
   imports: [
@@ -54,6 +55,7 @@ import {StaffDetailPage} from './staff-detail.page';
     MatTooltipModule,
     MatChipsModule,
     MatButtonToggleModule,
+
   ],
   declarations: [
     SubjectListPage,
@@ -62,6 +64,7 @@ import {StaffDetailPage} from './staff-detail.page';
     InstructorListPage,
     StaffListPage,
     StaffDetailPage,
+    AttendanceListPage,
 
   ],
   exports: []

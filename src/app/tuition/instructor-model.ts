@@ -1,7 +1,7 @@
-export interface Instructor {
-  name: string;
+import {Person} from './person.model';
+
+export interface Instructor extends Person {
   nric: string;
-  gender: string;
   id: string;
   email: string;
 }
