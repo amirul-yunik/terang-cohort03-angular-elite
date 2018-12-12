@@ -12,6 +12,8 @@ import {StaffListPage} from './tuition/staff-list.page';
 import {StaffDetailPage} from './tuition/staff-detail.page';
 import {AttendanceListPage} from './tuition/attendance-list.page';
 import {StudentSessionListPage} from './tuition/studentSession-list.page';
+import {JsonBackendListPage} from './tuition/jason-backend-list.page';
+import {PostDetailPage} from './tuition/jason-backend-detail.page';
 
 
 export const appRoutes: Routes = [{
@@ -32,5 +34,8 @@ export const appRoutes: Routes = [{
     {path: 'tuition/staffs/list', component: StaffListPage},
     {path: 'tuition/attendance/list', component: AttendanceListPage},
     {path: 'tuition/studentSession/list', component: StudentSessionListPage},
+    {path: 'tuition/jsonbackend/list', component: JsonBackendListPage},
+    {path: 'tuition/jsonbackend/:id', component: PostDetailPage},
+
   ]
 }];

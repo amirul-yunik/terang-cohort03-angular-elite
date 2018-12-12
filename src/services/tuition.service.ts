@@ -6,6 +6,7 @@ import {Staff} from '../app/tuition/staff.model';
 import {Instructor} from '../app/tuition/instructor-model';
 import {Student} from '../app/tuition/student.model';
 import {StudentSession} from '../app/tuition/studentSession.model';
+import {Post} from '../app/tuition/jason-backend-model';
 
 @Injectable()
 export class TuitionService {
@@ -30,7 +31,7 @@ export class TuitionService {
 
   }
 
-  findStaff(id:number): Observable<Staff> {
+  findStaff(id: number): Observable<Staff> {
     console.log('This is inside findStaff');
     return this.http.get<Staff>('data/staff.json');
   }
@@ -44,8 +45,6 @@ export class TuitionService {
     console.log('This is inside findInstructor');
     return this.http.get<Instructor>('data/instructor.json');
   }
-
-
 
 
   findStudents(): Observable<Student[]> {
@@ -66,6 +65,17 @@ export class TuitionService {
   findStudentSessions(): Observable<StudentSession[]> {
     console.log('This is inside findStudentSession');
     return this.http.get<StudentSession[]>('data/studentSessions.json');
+
+  }
+
+  findPost(): Observable<Post[]> {
+    console.log('This is inside findPostSession');
+    return this.http.get<Post[]>('https://jsonplaceholder.typicode.com/posts');
+  }
+
+  findPostById(id: string): Observable<Post> {
+    console.log('This is inside findInstructor');
+    return this.http.get<Post>('https://jsonplaceholder.typicode.com/posts/' + id);
   }
 
 }

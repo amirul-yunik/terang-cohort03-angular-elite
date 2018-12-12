@@ -42,4 +42,11 @@ export const menus = [
     'chip': {'value': 2, 'color': 'accent'},
     'open': true,
   },
+  {
+    'name': 'All Posts',
+    'icon': 'battery_unknown',
+    'link': '/tuition/jsonbackend/list',
+    'chip': {'value': 2, 'color': 'accent'},
+    'open': true,
+  },
 ];
