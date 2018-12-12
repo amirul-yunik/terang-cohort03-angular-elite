@@ -34,6 +34,8 @@ import {StudentSessionListPage} from './studentSession-list.page';
 import {StudentSessionDetailPage} from './studentSession-detail.page';
 import {TodosListPage} from './todos/todos-list.page';
 import {TodosDetailPage} from './todos/todos-detail.page';
+import {JsonBackendListPage} from './jason-backend-list.page';
+import {PostDetailPage} from './jason-backend-detail.page';
 
 @NgModule({
   imports: [
@@ -70,9 +72,7 @@ import {TodosDetailPage} from './todos/todos-detail.page';
     StaffDetailPage,
     AttendanceListPage,
     StudentSessionListPage,
-    StudentSessionDetailPage,
-    TodosListPage,
-    TodosDetailPage
+    StudentSessionDetailPage
 
   ],
   exports: []

@@ -14,6 +14,8 @@ import {AttendanceListPage} from './tuition/attendance-list.page';
 import {StudentSessionListPage} from './tuition/studentSession-list.page';
 import {TodosListPage} from './tuition/todos/todos-list.page';
 import {TodosDetailPage} from './tuition/todos/todos-detail.page';
+import {JsonBackendListPage} from './tuition/jason-backend-list.page';
+import {PostDetailPage} from './tuition/jason-backend-detail.page';
 
 
 export const appRoutes: Routes = [{
@@ -36,5 +38,8 @@ export const appRoutes: Routes = [{
     {path: 'tuition/studentSession/list', component: StudentSessionListPage},
     {path: 'tuition/todos/list', component: TodosListPage},
     {path: 'tuition/todos/list/:id', component: TodosDetailPage}
+    {path: 'tuition/jsonbackend/list', component: JsonBackendListPage},
+    {path: 'tuition/jsonbackend/:id', component: PostDetailPage},
+
   ]
 }];
