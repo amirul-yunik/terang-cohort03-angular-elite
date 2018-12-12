@@ -1,7 +1,9 @@
 [
   {
-    "id": "1001",
+
     "name": "Micheal Mikail",
+    "gender": "MALE",
+    "id": "1001",
     "nric": "123456237777",
     "role": "Accountant",
     "phone": "+60123456789",
@@ -10,8 +12,10 @@
   },
 
   {
-    "id": "1002",
+
     "name": "Bae Suzy",
+    "gender": "FEMALE",
+    "id": "1002",
     "nric": "123456225888",
     "role": "Manager",
     "phone": "+60123456987",
@@ -20,8 +24,9 @@
   },
 
   {
-    "id": "2001",
     "name": "Json Thecode",
+    "gender": "MALE",
+    "id": "2001",
     "nric": "123456123452",
     "role": "Technical Manager",
     "phone": "+60123444549",
@@ -30,8 +35,10 @@
   },
 
   {
-    "id": "3001",
+
     "name": "Mikail Micheal ",
+    "gender": "MALE",
+    "id": "3001",
     "nric": "123456340987",
     "role": "General Worker",
     "phone": "+60123545589",
@@ -40,8 +47,10 @@
   },
 
   {
-    "id": "4001",
+
     "name": "Alisha Adnan",
+    "gender": "FEMALE",
+    "id": "4001",
     "nric": "123679996666",
     "role": "General Worker",
     "phone": "+60123456789",

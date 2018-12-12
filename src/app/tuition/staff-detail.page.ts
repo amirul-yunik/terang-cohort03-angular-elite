@@ -16,8 +16,9 @@ export class StaffDetailPage implements OnInit {
   constructor(private form: FormBuilder,
               private tuitionService: TuitionService) {
     this.mainForm = this.form.group({
-      id: ['', Validators.required],
       name: ['', Validators.minLength(6)],
+      gender: ['', Validators.required],
+      id: ['', Validators.required],
       nric: ['', Validators.required],
       role: ['', Validators.required],
       phone: ['', Validators.required],
@@ -28,7 +29,7 @@ export class StaffDetailPage implements OnInit {
   }
 
   ngOnInit() {
-    this.staff$ = this.tuitionService.findStaff(1001);
+    this.staff$ = this.tuitionService.findStaff(1002);
 
     // patch form values
     this.staff$.subscribe(staff => this.mainForm.patchValue(staff));

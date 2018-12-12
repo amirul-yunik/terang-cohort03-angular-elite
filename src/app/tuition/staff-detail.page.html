@@ -13,14 +13,19 @@
 
       <form [formGroup]="mainForm" (ngSubmit)="onSubmit()" fxLayout="column" fxFlex="100">
 
+        <!--name-->
+        <mat-form-field class="width">
+          <input type="text" matInput placeholder="Name" formControlName="name" readonly>
+        </mat-form-field>
+
+        <!--gender-->
+        <mat-form-field class="width">
+          <input type="text" matInput placeholder="Gender" formControlName="gender" readonly>
+        </mat-form-field>
+
         <!--id-->
         <mat-form-field class="width">
           <input type="text" matInput placeholder="Id" formControlName="id" readonly>
-        </mat-form-field>
-
-        <!--name-->
-        <mat-form-field class="width">
-          <input type="text" matInput placeholder="Enter Name" formControlName="name" readonly>
         </mat-form-field>
 
         <!--nric-->

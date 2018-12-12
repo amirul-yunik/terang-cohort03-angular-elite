@@ -1,7 +1,8 @@
 {
-  "id": "1001",
   "name": "Micheal Mikail",
-  "nric": "123456115351",
+  "gender": "MALE",
+  "id": "1001",
+  "nric": "123456237777",
   "role": "Accountant",
   "phone": "+60123456789",
   "email": "mic.mikail@tuition.power"
