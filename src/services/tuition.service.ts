@@ -8,6 +8,8 @@ import {Student} from '../app/tuition/student.model';
 import {StudentSession} from '../app/tuition/studentSession.model';
 import {Post} from '../app/tuition/post.model';
 
+import {Todos} from '../app/tuition/todos/todos.model';
+import {Post} from '../app/tuition/jason-backend-model';
 
 @Injectable()
 export class TuitionService {
@@ -45,10 +47,8 @@ export class TuitionService {
   findInstructorsbyId(id: number): Observable<Instructor> {
     console.log('This is inside findInstructor');
     return this.http.get<Instructor>('data/instructor.json');
+
   }
-
-
-
 
   findStudents(): Observable<Student[]> {
     console.log('This is inside findStudents');
@@ -81,5 +81,13 @@ export class TuitionService {
 
 
 
+
+  findTodos():Observable<Todos[]>{
+    return this.http.get<Todos[]>('https://jsonplaceholder.typicode.com/todos');
+  }
+
+  findTodosById(id:number):Observable<Todos>{
+    return this.http.get<Todos>('https://jsonplaceholder.typicode.com/todos/' + id);
+  }
 
 }
