@@ -5,4 +5,6 @@ export interface StudentSession {
   instructor: Instructor;
   subject: Subject;
   sessionCode: string;
+  time: Date;
+
 }
