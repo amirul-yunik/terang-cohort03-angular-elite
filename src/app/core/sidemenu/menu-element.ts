@@ -57,4 +57,12 @@ export const menus = [
     'chip': {'value': 2, 'color': 'accent'},
     'open': true,
   },
+
+  {
+    'name': 'Things To do',
+    'icon': 'assignment',
+    'link': '/tuition/todos/list',
+    'chip': {'value': 2, 'color': 'accent'},
+    'open': true,
+  },
 ];
