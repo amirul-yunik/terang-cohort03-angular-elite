@@ -74,7 +74,7 @@ export class TuitionService {
     return this.http.get<Posts[]>('https://jsonplaceholder.typicode.com/posts');
   }
 
-  findPost(id:number): Observable<Posts> {
+  findPosted(id:number): Observable<Posts> {
     console.log('This is inside Post');
     return this.http.get<Posts>('https://jsonplaceholder.typicode.com/posts/'+ id);
   }

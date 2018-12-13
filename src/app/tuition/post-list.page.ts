@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
 import {TuitionService} from '../../services/tuition.service';
 import {PostDataSource} from './post.data-source';
-import {Post} from './post.model';
+import {Posts} from './post.model';
 
 @Component({
   selector: 'trg-post-list',
@@ -23,7 +23,7 @@ export class PostListPage implements OnInit {
     this.dataSource = new PostDataSource(this.postService);
   }
 
-  view(post: Post): void {
+  view(post: Posts): void {
     console.log("Data achieve");
     console.log(JSON.stringify(post));
     this.router.navigate(['/tuition/post/', post.id]);

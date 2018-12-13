@@ -21,7 +21,7 @@ export class JsonBackendListPage implements OnInit {
   }
 
   ngOnInit(): void {
-    this.datasource = this.tuitionService.findPost();
+    //this.datasource = this.tuitionService.findPost();
   }
 
   view(post: Post): void {

@@ -1,7 +1,7 @@
 import {Observable} from 'rxjs';
 import {DataSource} from '@angular/cdk/collections';
 import {TuitionService} from '../../services/tuition.service';
-import {Post} from './post.model';
+import {Posts} from './post.model';
 
 export class PostDataSource extends DataSource<any> {
 
@@ -9,7 +9,7 @@ export class PostDataSource extends DataSource<any> {
     super();
   }
 
-  connect(): Observable<Post[]> {
+  connect(): Observable<Posts[]> {
     return this.academyService.findPosts();
 
   }

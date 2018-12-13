@@ -18,8 +18,8 @@ export class PostDetailPage implements OnInit {
 
   ngOnInit(): void {
     // extracting param from url
-    this.route.params.subscribe((params: { id: string }) => {
-      this.post$ = this.tuituionService.findPostById(params.id);
-    });
+   // this.route.params.subscribe((params: { id: string }) => {
+     // this.post$ = this.tuituionService.findPost(params.id);
+    }
   }
-}
+

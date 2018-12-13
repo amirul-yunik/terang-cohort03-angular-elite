@@ -9,9 +9,10 @@ import {Staff} from './staff.model';
 
 
 @Component({
-  selector: 'trg-post-detail',
+  selector: 'post-post-detail',
   templateUrl: './post-detail.page.html',
 })
+//implements mean pesan angular
 export class PostDetailsPage implements OnInit {
 
   public columns = ['userId', 'id', 'title','body'];
@@ -23,7 +24,7 @@ export class PostDetailsPage implements OnInit {
   ngOnInit(): void {
     // extracting param from url
     this.route.params.subscribe((params: { id: number }) => {
-      this.posts$ = this.tuitionService.findPost(params.id)
+      this.posts$ = this.tuitionService.findPosted(params.id)
     });
   }
 
